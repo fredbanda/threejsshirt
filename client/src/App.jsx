@@ -1,12 +1,15 @@
 import React from 'react';
 import Home from './pages/Home';
+import Customizer from './pages/Customizer';
+import Canvas from './canvas';
 
 function App() {
   return (
-    <div>
-      <h1 className="head-text">Fred Banda</h1>
-<Home />
-    </div>
+    <main className="app transition-all ease-in">
+      <Home />
+      <Customizer />
+      <Canvas />
+    </main>
   )
 }
 
